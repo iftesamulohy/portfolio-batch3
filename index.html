@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ifte Samul Ohy – Senior Software Engineer</title>
+<script src="https://cdn.tailwindcss.com/3.4.17"></script>
+<style>
+:root{--bg:#fafaf9;--surface:#fff;--text:#1c1917;--muted:#57534e;--line:#e7e5e4;--accent:#0d9488;--accent-soft:#ccfbf1;color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0c0a09;--surface:#1c1917;--text:#f5f5f4;--muted:#a8a29e;--line:#292524;--accent:#2dd4bf;--accent-soft:#134e4a;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0c0a09;--surface:#1c1917;--text:#f5f5f4;--muted:#a8a29e;--line:#292524;--accent:#2dd4bf;--accent-soft:#134e4a;color-scheme:dark}
+html{scroll-behavior:smooth;scroll-padding-top:env(safe-area-inset-top,0px)}
+body{background:var(--bg);color:var(--text);font-family:Inter,system-ui,-apple-system,"Segoe UI",sans-serif}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:1rem}
+.muted{color:var(--muted)}
+.accent{color:var(--accent)}
+.chip{background:var(--accent-soft);color:var(--accent);border-radius:9999px;padding:.2rem .7rem;font-size:.8rem;font-weight:500}
+.btn{background:var(--accent);color:var(--bg);border-radius:.6rem;padding:.65rem 1.2rem;font-weight:600}
+.btn-o{border:1px solid var(--line);border-radius:.6rem;padding:.65rem 1.2rem;font-weight:600}
+</style>
+</head>
+<body>
+<header class="max-w-4xl mx-auto px-5 py-5 flex items-center justify-between">
+  <span class="font-semibold">IS<span class="accent">.</span>Ohy</span>
+  <nav class="flex gap-5 text-sm muted">
+    <a href="#skills">Skills</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main class="max-w-4xl mx-auto px-5">
+  <section class="py-16 sm:py-24">
+    <p class="accent font-medium mb-3">Hi, I’m</p>
+    <h1 class="text-4xl sm:text-6xl font-bold tracking-tight">Ifte Samul Ohy</h1>
+    <p class="text-xl sm:text-2xl mt-3 muted">Senior Software Engineer · 7 years of experience</p>
+    <p class="mt-6 max-w-2xl muted leading-relaxed">I build clean, fast and maintainable web applications with Python, HTMX and Tailwind CSS, and turn messy Excel workflows into reliable, automated tools.</p>
+    <div class="mt-8 flex flex-wrap gap-3">
+      <a href="#contact" class="btn">Get in touch</a>
+      <a href="#projects" class="btn-o">View projects</a>
+    </div>
+  </section>
+
+  <section id="skills" class="py-12">
+    <h2 class="text-2xl font-bold mb-6">Skills</h2>
+    <div class="grid sm:grid-cols-3 gap-4">
+      <div class="card p-5"><h3 class="font-semibold mb-3">Backend</h3><div class="flex flex-wrap gap-2"><span class="chip">Python</span><span class="chip">APIs</span><span class="chip">Automation</span></div></div>
+      <div class="card p-5"><h3 class="font-semibold mb-3">Frontend</h3><div class="flex flex-wrap gap-2"><span class="chip">HTML</span><span class="chip">CSS</span><span class="chip">Tailwind</span><span class="chip">HTMX</span></div></div>
+      <div class="card p-5"><h3 class="font-semibold mb-3">Data</h3><div class="flex flex-wrap gap-2"><span class="chip">Excel</span><span class="chip">Reporting</span><span class="chip">Data cleaning</span></div></div>
+    </div>
+  </section>
+
+  <section id="experience" class="py-12">
+    <h2 class="text-2xl font-bold mb-6">Experience</h2>
+    <div class="card p-6">
+      <div class="flex flex-wrap justify-between gap-2"><h3 class="font-semibold">Senior Software Engineer</h3><span class="muted text-sm">Present</span></div>
+      <ul class="mt-3 space-y-2 muted list-disc pl-5">
+        <li>Design and ship server-rendered web apps using Python and HTMX.</li>
+        <li>Build responsive, accessible interfaces with Tailwind CSS.</li>
+        <li>Automate reporting and data workflows around Excel.</li>
+      </ul>
+      <p class="mt-4 text-sm muted">7 years building software across the stack.</p>
+    </div>
+  </section>
+
+  <section id="projects" class="py-12">
+    <h2 class="text-2xl font-bold mb-6">Projects</h2>
+    <div class="grid sm:grid-cols-3 gap-4">
+      <article class="card p-5"><h3 class="font-semibold">Internal Dashboard</h3><p class="mt-2 text-sm muted">Python + HTMX dashboard with live-updating tables and filters.</p><div class="mt-4 flex gap-2"><span class="chip">Python</span><span class="chip">HTMX</span></div></article>
+      <article class="card p-5"><h3 class="font-semibold">Excel Automation</h3><p class="mt-2 text-sm muted">Scripts that clean, merge and report on spreadsheet data.</p><div class="mt-4 flex gap-2"><span class="chip">Python</span><span class="chip">Excel</span></div></article>
+      <article class="card p-5"><h3 class="font-semibold">Marketing Site</h3><p class="mt-2 text-sm muted">Fast, responsive landing pages styled with Tailwind CSS.</p><div class="mt-4 flex gap-2"><span class="chip">HTML</span><span class="chip">Tailwind</span></div></article>
+    </div>
+  </section>
+
+  <section id="contact" class="py-12 pb-20">
+    <div class="card p-8 text-center">
+      <h2 class="text-2xl font-bold">Let’s work together</h2>
+      <p class="mt-2 muted">Have a project or an opportunity in mind? I’d love to hear about it.</p>
+      <a href="mailto:hello@example.com" class="btn inline-block mt-6">Say hello</a>
+    </div>
+  </section>
+</main>
+
+<footer class="max-w-4xl mx-auto px-5 py-8 text-sm muted border-t" style="border-color:var(--line)">© 2026 Ifte Samul Ohy</footer>
+</body>
+</html>
